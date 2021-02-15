@@ -129,6 +129,11 @@ $(function() {
             $('.back-to-top').fadeOut(200)
         }
     });
+    $(document).ready(function() {
+      $(".notification-drop .item").on('click',function() {
+        $(this).find('ul').toggle();
+      });
+    });
     
     
     //Animate the scroll to yop
